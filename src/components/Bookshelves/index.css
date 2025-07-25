@@ -1,0 +1,160 @@
+.search-no{
+    width: 476.02880859375px;
+    height: 327.0318908691406px;
+    top: -0.04px;
+    left: -0.03px;
+    opacity: 1;
+
+}
+.search-no-para{
+    font-family: Inter;
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #334155;
+}
+.went-wrong-img{
+    width: 469.000244140625px;
+    height: 230.00112915039062px;
+    top: 366px;
+    left: 689px;
+    opacity: 1;
+
+
+}
+.went-wrong-head{
+    font-family: Inter;
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 0%;
+
+
+}
+.went-wrong-button{
+    width: 112px;
+    height: 48px;
+    opacity: 1;
+    border-radius: 12px;
+    gap: 8px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    background-color: #0284C7;
+    color:#ffffff;
+}
+.book-shelves-cont{
+    background-color:#f5f7fa;
+    
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    
+    
+
+}
+.bookshelves-grid{
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 60px;
+  width: 100%;
+  max-width: 1000px; 
+  justify-content: center; 
+}
+.bookshelves-cont{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  flex-grow: 1;
+  
+  
+
+  
+}
+.render-book-cont{
+    margin-top:45px;
+}
+  
+.search-img{
+    height:28px;
+    width:28px;
+    background-color: #9fa1a2;
+
+}
+.top-div{
+    display: flex;
+    justify-content: space-between;
+    gap:830px;
+    margin-bottom:20px;
+    /* padding-top:90px; */
+
+}
+.search-div{
+    display: flex;
+    border: 1px solid #CBD5E1
+}
+.search-input{
+    height:28px;
+    width:168px;
+
+}
+.main-head{
+    font-family: Inter;
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #334155;
+
+}
+.flexing{
+    display: flex;
+  align-items: stretch;
+  flex-grow: 1;
+}
+.heading{
+    font-family: Inter;
+    font-weight: 600px;
+    font-style: Semi Bold;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #334155;
+    text-align:center;
+    padding:10px;
+    align-self: stretch;
+    
+}
+.side-cont{
+    width: 256px;
+    /* height: 2000px; */
+    opacity: 1;
+    background-color:#ffffff;
+    margin:35px;
+    list-style-type: none;
+    align-self:stretch;
+    
+}
+.loader-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.load{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:190px;
+    margin-left:490px;
+
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}

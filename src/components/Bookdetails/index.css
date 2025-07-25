@@ -1,0 +1,242 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.cover-pic{
+    width: 235px;
+    height: 274px;
+    top: 217px;
+    left: 427px;
+    border-radius: 14.13px;
+    opacity: 1;
+
+}
+.details-card{
+    height:550px;
+    width:1140px;
+    top: 153px;
+    left: 150px;
+    border-radius: 16px;
+    opacity: 1;
+    background-color:#FFFFFF;
+    box-shadow: 0px 1px 2px 0px #60617029;
+    box-shadow: 0px 0px 1px 0px #28293D14;
+    margin-top:100px;
+    margin-bottom:100px;
+    
+}
+.bg-container{
+    background-color:#f5f7fa;
+    /* margin:140px; */
+    height:100%;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.upper{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    padding:30px;
+}
+.lower{
+    padding:30px;
+}
+.detail-title{
+    font-family: Inter;
+font-weight: 600px;
+font-style: Semi Bold;
+font-size: 32px;
+line-height: 58px;
+letter-spacing: 0px;
+color:#334155;
+}
+.detail-authorName{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    color:#475569;
+}
+.detail-status-real{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    color: #0284C7;
+}
+.detail-status{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    color: #475569;
+}
+.star-img{
+    width: 32px;
+    height: 32px;
+    top: 370px;
+    left: 849px;
+    border-radius: 2px;
+    opacity: 1;
+
+}
+.loader-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.detail-rating{
+    font-family: Inter;
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    color: #475569;
+
+}
+.real-data-rating{
+    font-family: HK Grotesk;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #334155;
+}
+.static-about-author{
+    font-family: Inter;
+    font-weight: 600px;
+    font-style: Semi Bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #334155;
+}
+.static-about-book{
+    font-family: Inter;
+    font-weight: 600px;
+    font-style: Semi Bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #334155;
+
+}
+.dynamic-about-author{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #475569;
+}
+.dynamic-about-book{
+       font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #475569;
+
+}
+.loader-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.load{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:190px;
+    margin-left:490px;
+
+}
+@media (max-width:768px){
+    .cover-pic{
+    width: 235px;
+    height: 274px;
+    top: 80px;
+    left: 62px;
+    border-radius: 12px;
+    opacity: 1;
+    }
+    .details-card{
+    height:550px;
+    width:1140px;
+    top: 153px;
+    left: 150px;
+    border-radius: 16px;
+    opacity: 1;
+    box-shadow: 0px 1px 2px 0px #60617029;
+    box-shadow: 0px 0px 1px 0px #28293D14;
+    margin-top:100px;
+    margin-bottom:100px;
+    background-color: none;
+    }
+    .detail-title{
+        font-family: Inter;
+        font-weight: 600px;
+        font-style: Semi Bold;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0px;
+        color: #334155;
+    }
+    .detail-authorName{
+        font-family: Inter;
+        font-weight: 500px;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        color:#475569;
+    }
+    .detail-rating{
+        font-family: Inter;
+        font-weight: 500px;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        color:#475569;
+
+    }
+    .star-img{
+        width: 24;
+        height: 24;
+        top: 450px;
+        left: 198px;
+        border-radius: 1.5px;
+        opacity: 1;
+
+    }
+    .detail-status{
+        font-family: Inter;
+        font-weight: 500px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        color:#475569;
+    }
+    .detail-status-real{
+        font-family: Inter;
+        font-weight: 500px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        color:#0284C7;
+    }
+
+
+}

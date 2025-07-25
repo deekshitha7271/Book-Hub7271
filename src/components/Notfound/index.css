@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button{
+    width: 164px;
+height: 50px;
+opacity: 1;
+border-radius: 12px;
+/* gap: 8px; */
+/* padding-top: 12px;
+padding-right: 24px;
+padding-bottom: 12px;
+padding-left: 24px; */
+background-color: #0284C7;
+color:#ffffff;
+display: inline-block;
+white-space: nowrap;
+
+
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.NotFound-Image{
+    height:400px;
+    width:400px;
+}
+.notfound-head{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #334155;
+}
+.notfound-para{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #475569;
+}
+.notfound-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+}
+.b-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
