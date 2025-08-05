@@ -1,6 +1,6 @@
 import Header from "../Header";
 import Topratedbooks from "../Topratedbooks";
-import Contact from "../contact";
+import Contact from "../Contact";
 import { Link } from "react-router";
 import './index.css';
 const Home = () => {
