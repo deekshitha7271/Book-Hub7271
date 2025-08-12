@@ -25,7 +25,7 @@ const Login = () => {
   const submitForm = async event  => {
     event.preventDefault()
     const userDetails = {username:userName, password:password}
-    const url = '/apis/login';
+    const url = 'https://apis.ccbp.inlogin';
     const options={
       method: 'POST',
       
@@ -36,13 +36,15 @@ const Login = () => {
       body: JSON.stringify(userDetails)
     }
     const response = await fetch(url, options)
-    const data = await response.json()
     // console.log(data)
     if(response.ok===true){
+          const data = await response.json()
+
       onSubmitSuccess(data.jwt_token)
     }
     else{
-      onSubmitFailure(data.error_msg)
+      
+      onSubmitFailure(response.error_msg)
     }
     const jwtToken = Cookies.get('jwt_token')
     if(jwtToken!==undefined){
